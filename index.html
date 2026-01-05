@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Silent Help</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Silent Help</h1>
+    <p>An Anonymous Student Support Platform</p>
+  </header>
+
+  <section class="form-section">
+    <h2>Share Your Concern (Anonymous)</h2>
+
+    <form id="helpForm">
+      <label>Category</label>
+      <select id="category" required>
+        <option value="">Select</option>
+        <option value="Mental Stress">Mental Stress</option>
+        <option value="Academic Pressure">Academic Pressure</option>
+        <option value="Harassment">Harassment</option>
+        <option value="Financial Issues">Financial Issues</option>
+      </select>
+
+      <label>Your Concern</label>
+      <textarea id="message" placeholder="Write your concern here..." required></textarea>
+
+      <button type="submit">Submit Anonymously</button>
+    </form>
+  </section>
+
+  <section class="posts-section">
+    <h2>Shared Concerns</h2>
+    <div id="posts"></div>
+  </section>
+
+  <footer>
+    <p>⚠️ This platform does not replace professional counselling.</p>
+  </footer>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
