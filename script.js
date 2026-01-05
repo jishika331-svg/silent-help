@@ -1,12 +1,13 @@
 // 🔹 REPLACE WITH YOUR OWN FIREBASE CONFIG
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDSSK_xjxUTwSWC-Q9KYsqx6AxT_WdHGUc",
+  authDomain: "silent-help-39365.firebaseapp.com",
+  projectId: "silent-help-39365",
+  storageBucket: "silent-help-39365.firebasestorage.app",
+  messagingSenderId: "863112871190",
+  appId: "1:863112871190:web:03fd08dc7f3539a15e2437"
 };
+
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
